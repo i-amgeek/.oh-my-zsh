@@ -14,8 +14,7 @@ zle -N edit-command-line
 
 
 bindkey -v
-
-# allow v to edit the command line (standard behaviour)
+bindkey -M viins 'kj' vi-cmd-mode
 autoload -Uz edit-command-line
 bindkey -M vicmd 'v' edit-command-line
 
