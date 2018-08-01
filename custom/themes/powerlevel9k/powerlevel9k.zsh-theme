@@ -1248,7 +1248,7 @@ prompt_php_version() {
 }
 
 ################################################################
-# Segment to display free RAM and used Swap
+# Segment to display free RAM  and used Swap
 prompt_ram() {
   local base=''
   local ramfree=0
@@ -1268,7 +1268,7 @@ prompt_ram() {
     fi
   fi
 
-  "$1_prompt_segment" "$0" "$2" "yellow" "$DEFAULT_COLOR" "$(printSizeHumanReadable "$ramfree" $base)" 'RAM_ICON'
+  "$1_prompt_segment" "$0" "$2" "087" "$DEFAULT_COLOR" "$(printSizeHumanReadable "$ramfree" $base)" 'RAM_ICON'
 }
 
 ################################################################
