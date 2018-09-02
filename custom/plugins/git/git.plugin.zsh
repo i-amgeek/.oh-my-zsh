@@ -32,7 +32,7 @@ function work_in_progress() {
     echo "WIP!!"
   fi
 }
-
+echo "1"
 #
 # Aliases
 # (sorted alphabetically)
