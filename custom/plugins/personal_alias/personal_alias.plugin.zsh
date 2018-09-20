@@ -1,4 +1,9 @@
+alias c='clear'
+alias fuck='pkill -9'
+alias goo='nocorrect googler'
 alias how='nocorrect how'
+alias q='exit'
+alias xx='atool -x'
 alias cd='nocorrect cd'
 alias cat='bat'
 alias less='bat'
@@ -38,6 +43,7 @@ alias -s 3gp='vlc'
 alias -s mkv='vlc'
 alias -s webm='vlc'
 alias -s pdf='xdg-open'
+alias -s cpp='vim'
 
 
 #===================================================#
@@ -49,7 +55,7 @@ alias -g H="| head"
 alias -g X='| xargs'
 alias -g T="| tail"
 alias -g C="| clipcopy"
-alias -g G='| ag'
+alias -g G='| rg'
 alias -g P="clippaste"
 alias -g HG='--help | grep'
 #=================================================#
@@ -200,7 +206,7 @@ Check the content of your H_COLORS_FG and H_COLORS_BG environment variables or u
     cat - | eval $_COMMAND
 
 }
-alias ipython_anaconda=/home/anonymous/anaconda3/bin/ipython3
+alias ipython_anaconda=/home/deepak/anaconda3/bin/ipython3
 alias gc="gc -m"
 alias gas="gaa;gss"
 alias v='f -e vim' # quick opening files with vim
