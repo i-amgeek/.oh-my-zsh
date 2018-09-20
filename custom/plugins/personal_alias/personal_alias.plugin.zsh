@@ -206,7 +206,7 @@ Check the content of your H_COLORS_FG and H_COLORS_BG environment variables or u
     cat - | eval $_COMMAND
 
 }
-alias ipython_anaconda=/home/deepak/anaconda3/bin/ipython3
+alias ipython_anaconda=$HOME/anaconda3/bin/ipython3
 alias gc="gc -m"
 alias gas="gaa;gss"
 alias v='f -e vim' # quick opening files with vim
