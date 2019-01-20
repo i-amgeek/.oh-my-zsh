@@ -1,3 +1,4 @@
+alias b='bat'
 alias c='clear'
 alias fuck='pkill -9'
 alias goo='nocorrect googler'

@@ -23,7 +23,7 @@ sudo-command-line() {
         LBUFFER="${LBUFFER#sudoedit }"
         LBUFFER="$EDITOR $LBUFFER"
     else
-        LBUFFER="sudo $LBUFFER"
+        LBUFFER="_ $LBUFFER"
     fi
 }
 zle -N sudo-command-line
